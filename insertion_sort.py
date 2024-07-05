@@ -13,3 +13,5 @@ def insertion_sort(arr):
     return arr
 
 print(insertion_sort(unsort_arr))
+
+#https://res.cloudinary.com/practicaldev/image/fetch/s--Jb4_F3IM--/c_imagga_scale,f_auto,fl_progressive,h_420,q_66,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dikaizalparzhpkb5wxi.gif
