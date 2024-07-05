@@ -1,6 +1,8 @@
-n = int(input())
-arr = list(map(int, input().split()))
-couple = int(input())
+# нахождение пары двух чисел, дающих в сумме введенное число
+
+n = int(input("Input quantity of numbers: "))
+arr = list(map(int, input("Input array: ").split()))
+couple = int(input("Input summary of couple: "))
 arr_couple = []
 def find_couple(arr, couple):
     for i in range(0, n):
@@ -12,6 +14,6 @@ def find_couple(arr, couple):
 arr_couple = find_couple(arr, couple)
 
 if not arr_couple:
-    print(None)
+    print("No relevant couple of numbers: ", None)
 else:
-    print(" ".join(str(x) for x in arr_couple))
+    print("Relevant couple of numbers: ", " ".join(str(x) for x in arr_couple))
