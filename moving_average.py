@@ -1,3 +1,4 @@
+# Метод скользящего среднего 
 n = int(input()) 
 arr1 = list(map(int, input().split()))
 win = int(input()) 
